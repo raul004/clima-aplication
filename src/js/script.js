@@ -26,6 +26,8 @@ document.querySelector('#search').addEventListener("submit", async (event) => {
             windSpeed: json.wind.speed,
         });
     } else {
+        document.querySelector('#weather').classList.remove('show');
+
         return showAlert(`
             Não foi possível localizar.
             <img src="./src/images/404.svg"/>
