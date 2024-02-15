@@ -47,12 +47,12 @@ body {
     border: none;
     cursor: pointer;
 }
-/*
+
 #weather {
     display: none;
     margin-top: 20px;
 }
-*/
+
 #weather.show {
     display: block;
 }
