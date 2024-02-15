@@ -46,12 +46,12 @@ body {
     border: none;
     cursor: pointer;
 }
-/*
+
 #weather {
     display: none;
     margin-top: 20px;
 }
-*/
+
 #weather.show {
     display: block;
 }
@@ -132,4 +132,15 @@ body {
 
 #wind_icon {
     color: #7c3aed;
+}
+
+#alert {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#alert > img {
+    width: 200px;
+    margin-top: 20px;
 }
