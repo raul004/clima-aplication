@@ -26,7 +26,10 @@ document.querySelector('#search').addEventListener("submit", async (event) => {
             windSpeed: json.wind.speed,
         });
     } else {
-        return showAlert('Não foi possível localizar.');
+        return showAlert(`
+            Não foi possível localizar.
+            <img src="src/images/404.svg"/>
+        `);
     }
 
 });
