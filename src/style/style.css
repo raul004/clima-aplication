@@ -46,3 +46,19 @@ body {
     border: none;
     cursor: pointer;
 }
+
+#weather {
+    display: none;
+    margin-top: 20px;
+}
+
+#weather.show {
+    display: block;
+}
+
+#weather #title {
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #322f3f;
+}
