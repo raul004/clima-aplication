@@ -47,12 +47,12 @@ body {
     border: none;
     cursor: pointer;
 }
-
+/*
 #weather {
     display: none;
     margin-top: 20px;
 }
-
+*/
 #weather.show {
     display: block;
 }
@@ -108,8 +108,8 @@ body {
     gap: 10px;
 }
 
-#other_infos > .info > h2 {
-    font-size: 12px;
+#other_infos > .info h2 {
+    font-size: 14px;
     font-weight: 600;
 }
 
